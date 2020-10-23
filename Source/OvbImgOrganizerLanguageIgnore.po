@@ -1,0 +1,50 @@
+# Warning: a blank line must separate each entry
+#
+msgid "Tahoma"
+msgstr ""
+
+msgid "▪▪▪"
+msgstr ""
+
+msgid "RichEdit1"
+msgstr ""
+
+msgid "▼"
+msgstr ""
+
+msgid "Arial"
+msgstr ""
+
+msgid "Courier New"
+msgstr ""
+
+msgid "DisplayMemo"
+msgstr ""
+
+msgid "CollectionFlowPanel"
+msgstr ""
+
+msgid "ActionMainMenuBar1"
+msgstr ""
+
+msgid "Segoe UI"
+msgstr ""
+
+msgid "-"
+msgstr ""
+
+msgid "CollectionSearchEdit"
+msgstr ""
+
+msgid "DriverID=SQLite"
+msgstr ""
+
+msgid "DropImageCountLabel"
+msgstr ""
+
+msgid "Platform Default"
+msgstr ""
+
+msgid "ScanDirEdit"
+msgstr ""
+

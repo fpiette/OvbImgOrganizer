@@ -1,0 +1,920 @@
+# Overbyte Image Organizer.
+# Copyright (C) 2020 François Piette
+# This file is distributed under the same license as the Overbyte Image Organizer.
+# francois.piette@overbyte.be.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OvbImgOrganizer\n"
+"POT-Creation-Date: 2020-07-25 18:36\n"
+"PO-Revision-Date: 2020-07-27 10:10+0200\n"
+"Last-Translator: François Piette <francois.piette@overbyte.be>\n"
+"Language-Team: François Piette\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: OvbImgOrganizer.Main.pas:3253
+#, object-pascal-format
+msgid "%d image selected"
+msgstr "%d images sélectionnées"
+
+#. First delete all tag for the image
+#: OvbImgOrganizer.DataModule.pas:1095
+#, object-pascal-format
+msgid "%d image/tag associations deleted"
+msgstr "%d associations image/mot-clé supprimées"
+
+#. Then delete image from index
+#: OvbImgOrganizer.DataModule.pas:1100
+#, object-pascal-format
+msgid "%d images removed"
+msgstr "%d images supprimées"
+
+#. Display('Collection %d %dx%d', [FCollectionCount, FCollectionWCount, FCollectionHCount]);
+#: OvbImgOrganizer.Main.pas:2790
+#, object-pascal-format
+msgid "%d/%d images"
+msgstr "%d/%d images"
+
+#. OvbImgOrganizerMainForm..ActionManager1..............Caption
+#. OvbImgOrganizerMainForm..ActionManager1..............Caption
+#: OvbImgOrganizer.Main.dfm:728 OvbImgOrganizer.Main.dfm:762
+msgid "&Add images to collection"
+msgstr "&Ajouter des images à la collection"
+
+#. OvbImgOrganizerMainForm..ActionManager1..............Caption
+#. OvbImgOrganizerMainForm..ActionManager1..............Caption
+#: OvbImgOrganizer.Main.dfm:744 OvbImgOrganizer.Main.dfm:774
+msgid "&Backup database"
+msgstr "Sauvegarder la &base de données"
+
+#. OvbImgOrganizerMainForm..ActionManager1..........Caption
+#. OvbImgOrganizerMainForm..ActionManager1..........Caption
+#: OvbImgOrganizer.Main.dfm:734 OvbImgOrganizer.Main.dfm:768
+msgid "&Collection"
+msgstr "&Collection"
+
+#. OvbImgOrganizerMainForm..ActionManager1..........Caption
+#. OvbImgOrganizerMainForm..ActionManager1..........Caption
+#: OvbImgOrganizer.Main.dfm:722 OvbImgOrganizer.Main.dfm:756
+msgid "&File"
+msgstr "&Fichier"
+
+#. HelpForm..OKButton..Caption
+#. ScanDirForm..OKButton..Caption
+#: OvbImgOrganizer.Help.dfm:27 OvbImgOrganizer.ImageScanDir.dfm:56
+msgid "&OK"
+msgstr "&OK"
+
+#. OvbImgOrganizerMainForm..ActionManager1..............Caption
+#. OvbImgOrganizerMainForm..ActionManager1..............Caption
+#: OvbImgOrganizer.Main.dfm:740 OvbImgOrganizer.Main.dfm:778
+msgid "&Scan dir"
+msgstr "&Scanner un répertoire"
+
+#. OvbImgOrganizerMainForm..ActionManager1..............Caption
+#. OvbImgOrganizerMainForm..ActionManager1..............Caption
+#: OvbImgOrganizer.Main.dfm:732 OvbImgOrganizer.Main.dfm:766
+msgid "&Search by tags"
+msgstr "Chercher par mots clé&s"
+
+#. OvbImgOrganizerMainForm..ActionManager1..........Caption
+#. OvbImgOrganizerMainForm..ActionManager1..........Caption
+#: OvbImgOrganizer.Main.dfm:746 OvbImgOrganizer.Main.dfm:780
+msgid "&Tools"
+msgstr "Ou&tils"
+
+#: OvbImgOrganizer.DataModule.pas:1367 OvbImgOrganizer.DataModule.pas:1662
+msgid "-* can only be used alone"
+msgstr "-* ne peut être utilisé que seul"
+
+#: OvbImgOrganizer.Main.pas:3046
+msgid "<empty>"
+msgstr "<vide>"
+
+#: OvbImgOrganizer.DataModule.pas:1982
+#, object-pascal-format
+msgid "A tag can't be named \"%s\""
+msgstr "\"%s\" ne peut être utilisé comme mot clé"
+
+#. OvbImgOrganizerMainForm..TagTreePopupMenu..TagTreeAddNewAsChildTagPopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:681
+msgid "Add a new tag as child"
+msgstr "Ajouter un mot clé enfant"
+
+#: OvbImgOrganizer.Main.pas:3162
+#, object-pascal-format
+msgid "Add a new tag as child of \"%s\""
+msgstr "Ajouter un mot clé enfant de \"%s\""
+
+#: OvbImgOrganizer.Main.pas:3175
+msgid "Add a new tag at the top level"
+msgstr "Ajouter un mot clé au niveau supérieur"
+
+#. OvbImgOrganizerMainForm..TagTreePopupMenu..AddNewTagAsSiblingTagTreePopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:689
+msgid "Add a new tag having same parent"
+msgstr "Ajouter un mot clé avec le même parent"
+
+#: OvbImgOrganizer.Main.pas:3165
+#, object-pascal-format
+msgid "Add a new tag having the same parent as \"%s\""
+msgstr "Ajouter un mot clé avec le même parent que \"%s\""
+
+#. OvbImgOrganizerMainForm..ActionManager1..CollectionAddImagesAction..Caption
+#: OvbImgOrganizer.Main.dfm:789
+msgid "Add images to collection"
+msgstr "Ajouter des images à la collection"
+
+#: OvbImgOrganizer.Main.pas:3159
+#, object-pascal-format
+msgid "Add tag \"%s\" to all selected images"
+msgstr "Ajouter le mot clé \"%s\" à toutes les images sélectionnées"
+
+#. OvbImgOrganizerMainForm..TagTreePopupMenu..AddTagToAllSelectedImagesTreePopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:685
+msgid "Add tag to all selected images"
+msgstr "Ajouter le mot clé à toutes les images sélectionnées"
+
+#. OvbImgOrganizerMainForm..PageControl1..NewImageTabSheet..DropDialogPanel..ImageDropAddToCollectionButton..Caption
+#: OvbImgOrganizer.Main.dfm:452 OvbImgOrganizer.Main.pas:1470
+msgid "Add to collection"
+msgstr "Ajouter à la collection"
+
+#: OvbImgOrganizer.Main.pas:1070
+msgid "Any file"
+msgstr "Tous fichiers"
+
+#: OvbImgOrganizer.Main.pas:2213
+#, object-pascal-format
+msgid "Are you sure you want to delete the (unused) tag \"%s\"?"
+msgstr "Etes-vous sûr de vouloir supprimer le mot clé (inutilisé) \"%s\" ?"
+
+#: OvbImgOrganizer.Main.pas:2205
+msgid "Are you sure you want to delete this tag?"
+msgstr "Etes-vous sûr de vouloir supprimer ce mot clé ?"
+
+#: OvbImgOrganizer.Main.pas:2082 OvbImgOrganizer.Main.pas:2156
+msgid "Are you sure?"
+msgstr "Etes-vous sûr ?"
+
+#. OvbImgOrganizerMainForm..PageControl1..NewImageTabSheet..DropDialogPanel..ImageDropAutoProcessCheckBox..Caption
+#: OvbImgOrganizer.Main.dfm:444
+msgid "Auto process all remaining images"
+msgstr "Traiter automatiquement le reste des images"
+
+#. OvbImgOrganizerMainForm..RightPanel..AvailableTagsPanel..Label1..Caption
+#: OvbImgOrganizer.Main.dfm:342
+msgid "Available tags:"
+msgstr "Mots clés disponibles :"
+
+#. OvbImgOrganizerMainForm..ActionManager1..BackupDatabaseAction..Caption
+#: OvbImgOrganizer.Main.dfm:804
+msgid "Backup database"
+msgstr "Sauvegarder la base de données"
+
+#: OvbImgOrganizer.Main.pas:3882
+#, object-pascal-format
+msgid "Backup done to %s"
+msgstr "Sauvegarde de la base de données effectuée dans %s"
+
+#: OvbImgOrganizer.Main.pas:1491
+msgid "Both have the same content."
+msgstr "Les deux ont le même contenu."
+
+#. OvbImgOrganizerMainForm..ActionManager1..BackupDatabaseAction..Category
+#. OvbImgOrganizerMainForm..ActionManager1..ToolsScanDirAction..Category
+#: OvbImgOrganizer.Main.dfm:803 OvbImgOrganizer.Main.dfm:808
+msgid "Brol"
+msgstr ""
+
+#. ScanDirForm..CancelButton..Caption
+#. OvbImgOrganizerMainForm..PageControl1..NewImageTabSheet..DropDialogPanel..ImageDropCancelButton..Caption
+#: OvbImgOrganizer.ImageScanDir.dfm:67 OvbImgOrganizer.Main.dfm:434
+msgid "Cancel"
+msgstr "Annuler"
+
+#: OvbImgOrganizer.DataModule.pas:313
+msgid "Canceled"
+msgstr "Annulé"
+
+#: OvbImgOrganizer.DataModule.pas:1976
+msgid "cannot contain one of those characters: "
+msgstr "ne peut pas contenir un de ces caractères :"
+
+#. Display('ChildCount=%d', [Node.ChildCount]);
+#: OvbImgOrganizer.Main.pas:2277
+msgid "Can't remove a tag having one or more child"
+msgstr "On ne peut supprimer un mot clé ayant un ou plusieurs enfants"
+
+#. OvbImgOrganizerMainForm..TopPanel..OrderByDescendingCheckBox..Hint
+#: OvbImgOrganizer.Main.dfm:155
+msgid "Check to have descending order"
+msgstr "Cocher pour ordre descendant"
+
+#. OvbImgOrganizerMainForm..ImageDropTagListPopupMenu..ImageDropClearTagListPopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:672
+msgid "Clear tag list"
+msgstr "Effacer la liste des mots clés"
+
+#. OvbImgOrganizerMainForm..PageControl1..CollectionTabSheet..Caption
+#. OvbImgOrganizerMainForm..ActionManager1..CollectionAddImagesAction..Category
+#. OvbImgOrganizerMainForm..ActionManager1..CollectionSearchByTagsAction..Category
+#: OvbImgOrganizer.Main.dfm:489 OvbImgOrganizer.Main.dfm:788
+#: OvbImgOrganizer.Main.dfm:798
+msgid "Collection"
+msgstr "Collection"
+
+#. OvbImgOrganizerMainForm..CollectionPopupMenu..CollectionCopyToClipboardPopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:620
+msgid "Copy selected images to clipboard"
+msgstr "Copier les images sélectionnées dans le presse-papier"
+
+#: OvbImgOrganizer.Main.pas:3622
+msgid "Could not access  allocated memory."
+msgstr "Ne peut accéder à la mémoire allouée."
+
+#: OvbImgOrganizer.Main.pas:3618
+msgid "Could not allocate  memory."
+msgstr "Ne peut allouer de la mémoire."
+
+#: OvbImgOrganizer.Main.pas:995
+msgid "Create DB"
+msgstr "Créer la DB"
+
+#: OvbImgOrganizer.DataModule.pas:312
+msgid "Create Table"
+msgstr "Créer une table"
+
+#. OvbImgOrganizerMainForm..RightPanel..CurrentImageTagsPanel..CurrentImageTagsLabel..Caption
+#: OvbImgOrganizer.Main.dfm:309
+msgid "Current image tags:"
+msgstr "Mots clés de l'image :"
+
+#: OvbImgOrganizer.Main.pas:1053
+msgid "Data file"
+msgstr "Fichier de données"
+
+#: OvbImgOrganizer.Main.pas:976 OvbImgOrganizer.Main.pas:988
+msgid "Data file doesn't exists!"
+msgstr "Le fichier de données n'existe pas !"
+
+#: OvbImgOrganizer.Main.pas:3871 OvbImgOrganizer.Main.pas:3883
+msgid "Database backup"
+msgstr "Sauvegarde de la base de données"
+
+#: OvbImgOrganizer.DataModule.pas:261
+#, object-pascal-format
+msgid "DBConnect raised an exception %s"
+msgstr "DBConnect à levé une exception %s"
+
+#: OvbImgOrganizer.DataModule.pas:419
+msgid "DBDisconnect failed"
+msgstr "DBDisconnect a échoué"
+
+#: OvbImgOrganizer.DataModule.pas:285
+#, object-pascal-format
+msgid "DBDisconnect raised an exception %s"
+msgstr "DBDisconnect a levé une exception %s"
+
+#: OvbImgOrganizer.DataModule.pas:2095
+msgid "DBFetchImageTagNames missing argument"
+msgstr "Manque un argument à DBFetchImageTagNames"
+
+#. OvbImgOrganizerMainForm..CollectionPopupMenu..DeselectAllImagesPopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:597
+msgid "Deselect all images"
+msgstr "Désélectionner toutes les images"
+
+#. OvbImgOrganizerMainForm..CollectionPopupMenu..DeselectImagePopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:593
+msgid "Deselect image"
+msgstr "Désélectionner l'image"
+
+#. ScanDirForm..Label1..Caption
+#: OvbImgOrganizer.ImageScanDir.dfm:25
+msgid "Directory to scan"
+msgstr "Répertoire à scanner"
+
+#. OvbImgOrganizerMainForm..TopPanel..HelpBitBtn..Hint
+#: OvbImgOrganizer.Main.dfm:182
+msgid "Display help"
+msgstr "Affiche l'aide"
+
+#: OvbImgOrganizer.Main.pas:990
+msgid "Do you want to create a new one?"
+msgstr "Voules-vous créer une nouvelle ?"
+
+#: OvbImgOrganizer.Main.pas:978
+msgid "Do you want to locate it on disk?"
+msgstr "Voulez-vous indiquer où elle se trouve ?"
+
+#: OvbImgOrganizer.DataModule.pas:311
+msgid "Do you want to overwrite it?"
+msgstr "Voulez-vous l'écraser ?"
+
+#: OvbImgOrganizer.Main.pas:1433
+#, object-pascal-format
+msgid "Done, loaded %d image, %d skipped image"
+msgstr "Effectué. %d images chargées, %d images ignorées"
+
+#: OvbImgOrganizer.Main.pas:2564
+msgid "Done."
+msgstr "Effectué."
+
+#: OvbImgOrganizer.Main.pas:1497
+msgid "Dropped file:"
+msgstr "Fichier déposé :"
+
+#. OvbImgOrganizerMainForm..ActionManager1..FileExitAction..Caption
+#: OvbImgOrganizer.Main.dfm:794
+msgid "E&xit"
+msgstr "&Quitter"
+
+#: OvbImgOrganizer.Main.pas:1706
+msgid "Empty"
+msgstr "Vide"
+
+#: OvbImgOrganizer.Main.pas:2329
+#, object-pascal-format
+msgid "Enter name for new parent of \"%s\""
+msgstr "Entrez le nom du nouveau parent de \"%s\""
+
+#: OvbImgOrganizer.Main.pas:2370
+#, object-pascal-format
+msgid "Enter new name for %s"
+msgstr "Entrez un nouveau nom pour %s"
+
+#: OvbImgOrganizer.Main.pas:1130 OvbImgOrganizer.Main.pas:1168
+#: OvbImgOrganizer.Main.pas:2461
+msgid "Enter tag names"
+msgstr "Entrez des mots clés"
+
+#. OvbImgOrganizerMainForm..TopPanel..CollectionSearchEdit..Hint
+#: OvbImgOrganizer.Main.dfm:89
+msgid "Enter tags separated by a space. Leave empty to view all."
+msgstr "Entrez les mots clés séparés par un espace. Laissez vide pour voir tout."
+
+#. Error while searching for parent of parent
+#: OvbImgOrganizer.DataModule.pas:1863
+#, object-pascal-format
+msgid "Error in child/parent chain of \"%s\""
+msgstr "Erreur dans le chaînage enfant/parent de \"%s\""
+
+#: OvbImgOrganizer.Main.pas:1496
+msgid "Existing:"
+msgstr "Existant :"
+
+#: OvbImgOrganizer.Main.pas:3870
+msgid "Failed: You must select a directory as destination"
+msgstr "Echec : Vous devez sélectionner un répertoire comme destination"
+
+#: OvbImgOrganizer.Main.pas:2544
+msgid "Failed: You must select a directory to scan."
+msgstr "Echec : Vous devez sélectionner un répertoire à scanner."
+
+#. OvbImgOrganizerMainForm..ActionManager1..FileExitAction..Category
+#: OvbImgOrganizer.Main.dfm:793
+msgid "File"
+msgstr "Fichier"
+
+#. Index 1
+#: OvbImgOrganizer.Main.pas:608
+msgid "FileDateTime"
+msgstr "Date du fichier"
+
+#. Index 0
+#: OvbImgOrganizer.Main.pas:607
+msgid "FileName"
+msgstr "Nom du fichier"
+
+#. OvbImgOrganizerMainForm..RightPanel..CurrentImageTagsPanel..ImageTagListBox..Hint
+#: OvbImgOrganizer.Main.dfm:316
+msgid "Focused image tags"
+msgstr "Mots clé de l'image active"
+
+#: OvbImgOrganizer.DataModule.pas:2363
+#, object-pascal-format
+msgid "Found %d conflict."
+msgstr "%d conflits trouvés."
+
+#. SlideShowForm..ToolsPanel..ButtonPanel..FullScreenBitBtn..Hint
+#. SlideShowForm..SlideShowPopupMenu..FullScreenPopupMnu..Caption
+#: OvbImgOrganizer.SlideShow.dfm:115 OvbImgOrganizer.SlideShow.dfm:173
+msgid "Full screen"
+msgstr "Plein écran"
+
+#. OvbImgOrganizerMainForm..TopPanel..SlidShowBitBtn..Hint
+#: OvbImgOrganizer.Main.dfm:221
+msgid "Full screen mode"
+msgstr "Mode plein écran"
+
+#. OvbImgOrganizerMainForm..TopPanel..Hint
+#: OvbImgOrganizer.Main.dfm:65
+msgid "Help"
+msgstr "Aide"
+
+#. SlideShowForm..SlideShowPopupMenu..HighSpeedPopupMnu..Caption
+#: OvbImgOrganizer.SlideShow.dfm:185
+msgid "High speed"
+msgstr "Haute vitesse"
+
+#: OvbImgOrganizer.Main.pas:1394
+#, object-pascal-format
+msgid "Ignoring image \"%s\""
+msgstr "Ignore l'image \"%s\""
+
+#: OvbImgOrganizer.Main.pas:3814
+#, object-pascal-format
+msgid "Image \"%s\" now tagged with \"%s\""
+msgstr "L'image \"%s\" maintenant associée au mot clé \"%s\""
+
+#: OvbImgOrganizer.Main.pas:3817
+#, object-pascal-format
+msgid "Image \"%s\" was already tagged with \"%s\""
+msgstr "L'image \"%s\" était déjà associée au mot clé \"%s\""
+
+#. Check if tag is used on images
+#: OvbImgOrganizer.DataModule.pas:656
+#, object-pascal-format
+msgid "Image %s%s not in database"
+msgstr "L'image %s%s n'est pas dans la base de données"
+
+#: OvbImgOrganizer.Main.pas:1476
+#, object-pascal-format
+msgid "Image already exists in DB %d/%d"
+msgstr "Images déjà dans la DB %d/%d"
+
+#: OvbImgOrganizer.Main.pas:1488
+msgid "Image already exists in DB but not at same place!"
+msgstr "L'image existe déjà dans la DB mais pas dans le même emplacement !"
+
+#: OvbImgOrganizer.Main.pas:1447
+#, object-pascal-format
+msgid "ImageDrop adding file %s"
+msgstr "ImageDrop ajout image %s"
+
+#: OvbImgOrganizer.Main.pas:1664
+msgid "ImageDrop canceled"
+msgstr "ImageDrop annulé"
+
+#: OvbImgOrganizer.Main.pas:1429
+msgid "ImageDrop done"
+msgstr "ImageDrop effectué"
+
+#: OvbImgOrganizer.Main.pas:1427
+#, object-pascal-format
+msgid "ImageDrop loaded %d file, skipped %d file"
+msgstr "ImageDrop chargé %d file, ignoré %d file"
+
+#: OvbImgOrganizer.DataModule.pas:2161
+#, object-pascal-format
+msgid "ImageID %d not found"
+msgstr "ImageID %d pas trouvé"
+
+#. ScanDirForm..Label2..Caption
+#: OvbImgOrganizer.ImageScanDir.dfm:34
+msgid "Include subdirectories"
+msgstr "Inclure les sous-répertoires"
+
+#. Index 2
+#: OvbImgOrganizer.Main.pas:609
+msgid "IndexDateTime"
+msgstr "Date d'indexation"
+
+#: OvbImgOrganizer.Main.pas:1069
+msgid "JPG files"
+msgstr "Fichier JPG"
+
+#. OvbImgOrganizerMainForm..TopPanel..LoadMoreButton..Caption
+#: OvbImgOrganizer.Main.dfm:172
+msgid "Load more"
+msgstr "Charger plus"
+
+#. Empty string returns ALL records
+#: OvbImgOrganizer.Main.pas:2395
+msgid "LoadCollection"
+msgstr "Chargement de la collection"
+
+#: OvbImgOrganizer.Main.pas:1705
+#, object-pascal-format
+msgid "LoadImage failed for %s"
+msgstr "Echec de LoadImage for %s"
+
+#: OvbImgOrganizer.Main.pas:1388
+#, object-pascal-format
+msgid "Loading %d image"
+msgstr "Chargement de %d images"
+
+#. SlideShowForm..SlideShowPopupMenu..MediumSpeedPopupMnu..Caption
+#: OvbImgOrganizer.SlideShow.dfm:181
+msgid "Medium speed"
+msgstr "Vitesse moyenne"
+
+#: OvbImgOrganizer.Main.pas:3150
+#, object-pascal-format
+msgid "Move tag \"%s\" to another branch"
+msgstr "Déplacer le mot clé \"%s\" vers une autre branche"
+
+#. OvbImgOrganizerMainForm..TagTreePopupMenu..MoveTagToOtherBranchTagTreePopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:701
+msgid "Move tag to other branch"
+msgstr "Déplacer le mot clé vers une autre branche"
+
+#: OvbImgOrganizer.DataModule.pas:1959
+msgid "must be at least 3 characters"
+msgstr "doit avoir au moins 3 caractères"
+
+#: OvbImgOrganizer.DataModule.pas:1963
+msgid "must be at most 80 characters"
+msgstr "doit avoir au plus 80 caractères"
+
+#. OvbImgOrganizerMainForm..PageControl1..NewImageTabSheet..Caption
+#: OvbImgOrganizer.Main.dfm:395
+msgid "New Image"
+msgstr "Nouvelle image"
+
+#. Image not in database, that is OK
+#: OvbImgOrganizer.Main.pas:1467
+#, object-pascal-format
+msgid "New Image %d/%d"
+msgstr "Nouvelle image %d/%d"
+
+#: OvbImgOrganizer.Main.pas:1170
+#, object-pascal-format
+msgid "New Tag (Child of %s)"
+msgstr "Nouveau mot clé (Enfant de %s)"
+
+#: OvbImgOrganizer.Main.pas:1125
+#, object-pascal-format
+msgid "New Tag (Sibling of %s)"
+msgstr "Nouveau mot clé (Même parent que %s)"
+
+#. SlideShowForm..ToolsPanel..ButtonPanel..NextBitBtn..Hint
+#. SlideShowForm..SlideShowPopupMenu..NextPopupMnu..Caption
+#: OvbImgOrganizer.SlideShow.dfm:39 OvbImgOrganizer.SlideShow.dfm:165
+msgid "Next"
+msgstr "Suivant"
+
+#: OvbImgOrganizer.Main.pas:3040
+msgid "No data assigned"
+msgstr "Pas de données"
+
+#: OvbImgOrganizer.Main.pas:1878 OvbImgOrganizer.Main.pas:2075
+#: OvbImgOrganizer.Main.pas:3108 OvbImgOrganizer.Main.pas:3777
+msgid "No image selected"
+msgstr "Pas d'image sélectionnée"
+
+#. OvbImgOrganizerMainForm..CollectionPopupMenu..OpenAllSelectedImagesPopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:577
+msgid "Open all selected images"
+msgstr "Ouvrir toutes les images sélectionnées"
+
+#. OvbImgOrganizerMainForm..CollectionPopupMenu..OpenImagePopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:573
+msgid "Open image"
+msgstr "Ouvrir l'image active"
+
+#. OvbImgOrganizerMainForm..TopPanel..Label2..Caption
+#: OvbImgOrganizer.Main.dfm:82
+msgid "Order by"
+msgstr "Trier selon"
+
+#. HelpForm..Caption
+#: OvbImgOrganizer.Help.dfm:4
+msgid "OvbImgOrganizer - Help"
+msgstr "OvbImgOrganizer - Aide"
+
+#. OvbImgOrganizerMainForm..Caption
+#: OvbImgOrganizer.Main.dfm:4
+msgid "OverByte Image Organizer"
+msgstr "OverByte Image Organizer"
+
+#. OvbImgOrganizerMainForm..ScrollBoxPopupMenu..ScrollBoxPastePopupMnu..Caption
+#. OvbImgOrganizerMainForm..DropDialogPanelPopupMenu..DropDialogPanelPastePopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:652 OvbImgOrganizer.Main.dfm:660
+msgid "Paste"
+msgstr "Coller"
+
+#. OvbImgOrganizerMainForm..CollectionPopupMenu..CollectionPastePopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:616
+msgid "Paste images from clipboard"
+msgstr "Copier les images du presse papier"
+
+#: OvbImgOrganizer.Main.pas:3147
+#, object-pascal-format
+msgid "Popup on %s"
+msgstr "Popup sur %s"
+
+#. SlideShowForm..ToolsPanel..ButtonPanel..PreviousBitBtn..Hint
+#. SlideShowForm..SlideShowPopupMenu..PreviousPopupMnu..Caption
+#: OvbImgOrganizer.SlideShow.dfm:77 OvbImgOrganizer.SlideShow.dfm:169
+msgid "Previous"
+msgstr "Précédent"
+
+#: OvbImgOrganizer.Main.pas:1024
+msgid "Ready"
+msgstr "Prêt"
+
+#. OvbImgOrganizerMainForm..CollectionPopupMenu..RecreateThumbnailPopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:627
+msgid "Recreate thumbnail"
+msgstr "Recréer la miniature"
+
+#: OvbImgOrganizer.Main.pas:2491
+#, object-pascal-format
+msgid "Recreate thumbnail for %s"
+msgstr "Recréer la miniature pour %s"
+
+#. OvbImgOrganizerMainForm..CollectionPopupMenu..RecreateThumbnailsForSelectedImagesPopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:631
+msgid "Recreate thumbnails for all selected images"
+msgstr "Recréer les miniatures de toutes les images sélectionnées"
+
+#. OvbImgOrganizerMainForm..TagTreePopupMenu..ReloadTreeTagTreePopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:705
+msgid "Reload tree"
+msgstr "Recharger l'arbre"
+
+#: OvbImgOrganizer.Main.pas:1938
+#, object-pascal-format
+msgid "Remove ALL (%d) selected images from collection?"
+msgstr "Retirer TOUTES les images (%d) de la collection ?"
+
+#. OvbImgOrganizerMainForm..CollectionPopupMenu..RemoveAllSelectedImagesFromCollectionPopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:609
+msgid "Remove all selected images from collection"
+msgstr "Retirer toutes les images de la collection"
+
+#: OvbImgOrganizer.Main.pas:1994
+#, object-pascal-format
+msgid "Remove image \"%s\" from collection?"
+msgstr "Retirer l'image \"%s\" de la collection ?"
+
+#. OvbImgOrganizerMainForm..CollectionPopupMenu..RemoveImageFromCollectionPopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:605
+msgid "Remove image from collection"
+msgstr "Retirer l'image de la collection"
+
+#. OvbImgOrganizerMainForm..CollectionPopupMenu..RemoveImageFromViewPopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:601
+msgid "Remove image from view"
+msgstr "Retirer l'image de la vue"
+
+#: OvbImgOrganizer.Main.pas:2080
+#, object-pascal-format
+msgid "Remove tag \"%s\" from %d images."
+msgstr "Retirer le mot clé \"%s\" de %d images."
+
+#: OvbImgOrganizer.Main.pas:2154
+#, object-pascal-format
+msgid "Remove tag \"%s\" from image \"%s\"."
+msgstr "Retirer le mot clé \"%s\" de l'image \"%s\"."
+
+#: OvbImgOrganizer.Main.pas:3153
+#, object-pascal-format
+msgid "Remove tag \"%s\" from tree"
+msgstr "Retirer le mot clé \"%s\" de l'arbre"
+
+#. OvbImgOrganizerMainForm..ImageTagListBoxPopupMenu..RemoveTagFromAllSelectedImagesPopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:644
+msgid "Remove tag from all selected images"
+msgstr "Retirer le mot clé de toutes les images sélectionnées"
+
+#. OvbImgOrganizerMainForm..ImageTagListBoxPopupMenu..RemoveTagFromFocusedImagePopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:640
+msgid "Remove tag from focused image"
+msgstr "Retirer le mot clé de l'image active"
+
+#. OvbImgOrganizerMainForm..TagTreePopupMenu..RemoveTagFromTagTreePopupMnuClick..Caption
+#: OvbImgOrganizer.Main.dfm:693
+msgid "Remove tag from the tree"
+msgstr "Retirer le mot clé de l'arbre"
+
+#. OvbImgOrganizerMainForm..ImageDropTagListPopupMenu..ImageDropRemoveTagFromListPopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:668
+msgid "Remove tag from this list"
+msgstr "Retirer le mot clé de cette liste"
+
+#: OvbImgOrganizer.Main.pas:2190
+#, object-pascal-format
+msgid "Removing tag \"%s\""
+msgstr "Retrait du mot clé \"%s\""
+
+#. OvbImgOrganizerMainForm..TagTreePopupMenu..RenameTagTagTreePopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:697 OvbImgOrganizer.Main.pas:2331
+#: OvbImgOrganizer.Main.pas:2372
+msgid "Rename tag"
+msgstr "Renomer le mot clé"
+
+#: OvbImgOrganizer.Main.pas:3156
+#, object-pascal-format
+msgid "Rename tag \"%s\""
+msgstr "Renommer le mot clé \"%s\""
+
+#. OvbImgOrganizerMainForm..ActionManager1..ToolsScanDirAction..Caption
+#: OvbImgOrganizer.Main.dfm:809 OvbImgOrganizer.Main.pas:2545
+msgid "Scan dir"
+msgstr "Scanner un répertoire"
+
+#. OvbImgOrganizerMainForm..TopPanel..CollectionSearchBitBtn..Caption
+#: OvbImgOrganizer.Main.dfm:100
+msgid "Search"
+msgstr "Chercher"
+
+#. OvbImgOrganizerMainForm..ActionManager1..CollectionSearchByTagsAction..Caption
+#: OvbImgOrganizer.Main.dfm:799 OvbImgOrganizer.Main.pas:2463
+msgid "Search by tags"
+msgstr "Chercher par mots clés"
+
+#: OvbImgOrganizer.Main.pas:2440
+msgid "SearchGenerateSql"
+msgstr "Génération de la requête SQL de recherche"
+
+#. OvbImgOrganizerMainForm..CollectionPopupMenu..SelectAllImagesPopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:589
+msgid "Select all images"
+msgstr "Sélectionner toutes les images"
+
+#: OvbImgOrganizer.Main.pas:3860
+msgid "Select destination for your backup"
+msgstr "Sélectionnez la destination de votre sauvegarde"
+
+#. ScanDirForm..Caption
+#: OvbImgOrganizer.ImageScanDir.dfm:5 OvbImgOrganizer.ImageScanDir.pas:117
+msgid "Select directory to scan"
+msgstr "Sélectionnez le répertoire à scanner"
+
+#. OvbImgOrganizerMainForm..CollectionPopupMenu..SelectImagePopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:585
+msgid "Select image"
+msgstr "Sélectionner l'image"
+
+#. OvbImgOrganizerMainForm..TopPanel..OrderByComboBox..Hint
+#: OvbImgOrganizer.Main.dfm:144
+msgid "Select result ordering"
+msgstr "Choisir l'ordre de tri"
+
+#. OvbImgOrganizerMainForm..CollectionPopupMenu..ShowInExplorerPopupMnu..Caption
+#. SlideShowForm..SlideShowPopupMenu..ShowInExplorerPopupMnu..Caption
+#: OvbImgOrganizer.Main.dfm:581 OvbImgOrganizer.SlideShow.dfm:193
+msgid "Show in Explorer"
+msgstr "Voir dans l'explorateur de Windows"
+
+#. OvbImgOrganizerMainForm..PageControl1..NewImageTabSheet..DropDialogPanel..ImageDropSkipButton..Caption
+#: OvbImgOrganizer.Main.dfm:461
+msgid "Skip"
+msgstr "Passer"
+
+#. OvbImgOrganizerMainForm..PageControl1..CollectionTabSheet..CollectionScrollBox..Hint
+#: OvbImgOrganizer.Main.dfm:497
+msgid "Slide show"
+msgstr "Diaporama"
+
+#. SlideShowForm..SlideShowPopupMenu..SlowSpeedPopupMnu..Caption
+#: OvbImgOrganizer.SlideShow.dfm:177
+msgid "Slow speed"
+msgstr "Vitesse faible"
+
+#. SlideShowForm..SlideShowPopupMenu..SuspendPopupMnu..Caption
+#: OvbImgOrganizer.SlideShow.dfm:189
+msgid "Suspend"
+msgstr "Suspendre"
+
+#: OvbImgOrganizer.DataModule.pas:310
+#, object-pascal-format
+msgid "Table %s already exists"
+msgstr "La table %s existe déjà"
+
+#: OvbImgOrganizer.DataModule.pas:323
+#, object-pascal-format
+msgid "Table %s created"
+msgstr "Table %s créée"
+
+#. Error whle searching new tag name
+#: OvbImgOrganizer.DataModule.pas:1921
+#, object-pascal-format
+msgid "Tag \"%s\" already exists"
+msgstr "Le mot clé \"%s\" existe déjà"
+
+#. Error while searching for tag
+#. Error while searching for tag
+#. Error while searching for tag
+#. Error while searching for new parent tag
+#. Check the tag ID
+#: OvbImgOrganizer.DataModule.pas:1647 OvbImgOrganizer.DataModule.pas:1673
+#: OvbImgOrganizer.DataModule.pas:1838 OvbImgOrganizer.DataModule.pas:1846
+#: OvbImgOrganizer.Main.pas:1618 OvbImgOrganizer.Main.pas:2071
+#: OvbImgOrganizer.Main.pas:2146 OvbImgOrganizer.Main.pas:3802
+#, object-pascal-format
+msgid "Tag \"%s\" doesn't exist"
+msgstr "Le mot clé \"%s\" n'existe pas"
+
+#: OvbImgOrganizer.DataModule.pas:1870
+#, object-pascal-format
+msgid "Tag \"%s\" is a child of tag \"%s\""
+msgstr "Le mot clé \"%s\" est un enfant du mot clé \"%s\""
+
+#: OvbImgOrganizer.Main.pas:2203
+#, object-pascal-format
+msgid "Tag \"%s\" is used by %d images"
+msgstr "Le mot clé \"%s\" est utilisé par %d images"
+
+#. Error searching for tag
+#: OvbImgOrganizer.DataModule.pas:1885 OvbImgOrganizer.DataModule.pas:1934
+#: OvbImgOrganizer.Main.pas:1121
+#, object-pascal-format
+msgid "Tag \"%s\" not found"
+msgstr "Mot clé \"%s\" pas trouvé"
+
+#. Fetch TagID
+#: OvbImgOrganizer.DataModule.pas:952
+#, object-pascal-format
+msgid "Tag \"%s\" not in database"
+msgstr "Le mot clé \"%s\" n'est pas dans la base de données"
+
+#: OvbImgOrganizer.Main.pas:3791
+msgid "Tag must have at least 3 characters, ignoring"
+msgstr "Les mots clés doivent avoir au moins 3 caractères, ignore"
+
+#. Set focus to the last item selected
+#: OvbImgOrganizer.Main.pas:3122
+#, object-pascal-format
+msgid "Tag was \"%s\" already in the list"
+msgstr "Le mot clé \"%s\" est déjà dans la liste"
+
+#: OvbImgOrganizer.Main.pas:1020
+msgid "This program is published under MOZILLA PUBLIC LICENSE V2.0;"
+msgstr ""
+
+#: OvbImgOrganizer.Main.pas:1494
+msgid "Those are two different files."
+msgstr "Ce sont deux fichiers différents."
+
+#. Root
+#: OvbImgOrganizer.Main.pas:1105
+msgid "Top level tag"
+msgstr "Mot clé du niveau supérieur"
+
+#: OvbImgOrganizer.DataModule.pas:457
+msgid "Unable to delete existing backup file"
+msgstr "Impossible d'effacer la sauvegarde existante"
+
+#: OvbImgOrganizer.DataModule.pas:462
+msgid "Unable to rename temporary file to backup filename"
+msgstr "Impossible de renommer le fichier temporaire avec le nom de la sauvegarde"
+
+#: OvbImgOrganizer.DataModule.pas:231
+msgid "Unknown error"
+msgstr "Erreur inconnue"
+
+#. Return empty string in case of error.
+#. No duplicate
+#: OvbImgOrganizer.DataModule.pas:1299 OvbImgOrganizer.DataModule.pas:1318
+#, object-pascal-format
+msgid "Unknown special tag \"%s\""
+msgstr "Mot clé spécial \"%s\" inconnu"
+
+#: OvbImgOrganizer.Main.pas:1505
+msgid "Update tags"
+msgstr "MAJ mots clés"
+
+#. OvbImgOrganizerMainForm..PageControl1..NewImageTabSheet..DropDialogPanel..DropImageViewCollectionButton..Caption
+#: OvbImgOrganizer.Main.dfm:481
+msgid "View collection"
+msgstr "Voir la collection"
+
+#: OvbImgOrganizer.Main.pas:1021
+msgid "you may not use this file except in compliance with the License."
+msgstr ""
+
+#: OvbImgOrganizer.Main.pas:1022
+msgid "You may obtain a copy of the License at"
+msgstr ""
+
+#~ msgid "Tools"
+#~ msgstr "Tools"
+
+#~ msgid "Show in explorer"
+#~ msgstr "Montrer dans l'explorateur"
+
+#~ msgid "New Tag"
+#~ msgstr "Nouveau mot clé"
+
+#, object-pascal-format
+#~ msgid "Tag \"%s\" already exists, ignoring."
+#~ msgstr "Le mot clé \"%s\" existe déjà, ignore."
+
+#, object-pascal-format
+#~ msgid "Tag \"%s\" doesn't exist. Ignoring"
+#~ msgstr "Le mot clé \"%s\" n'existe pas, ignore"
+
+#~ msgid "Tag cannot contain one of those characters:"
+#~ msgstr "Un mot clé ne peut pas contenir un de ces caractères :"
+
+#~ msgid "Unable to connect to database"
+#~ msgstr "Impossible de se connecter à la base de données"

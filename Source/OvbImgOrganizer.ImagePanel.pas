@@ -1132,6 +1132,7 @@ var
     BitmapBuf        : array of Byte;          // ARGB buffer
     BitmapProperties : TD2D1BitmapProperties;
     BmpData          : TBitmapData;
+    HR               : HRESULT;
 begin
     Result := nil;
     if (GPBitmap.GetHeight = 0) or (GPBitmap.GetWidth = 0) then
@@ -1144,21 +1145,29 @@ begin
                          ImageLockModeRead,
                          PixelFormat32bppARGB, BmpData) <> TStatus.Ok then
         raise Exception.Create('Bitmap.LockBits failed');
+    try
+        BitmapProperties.dpiX := 0;
+        BitmapProperties.dpiY := 0;
+        BitmapProperties.pixelFormat.format := DXGI_FORMAT_B8G8R8A8_UNORM;
+    //    if (GPBitmap.PixelFormat <> pf32bit) or (GPBitmap.AlphaFormat = afIgnored) then
+    //        BitmapProperties.pixelFormat.alphaMode := D2D1_ALPHA_MODE_IGNORE
+    //    else
+            BitmapProperties.pixelFormat.alphaMode := D2D1_ALPHA_MODE_PREMULTIPLIED;
 
-    BitmapProperties.dpiX := 0;
-    BitmapProperties.dpiY := 0;
-    BitmapProperties.pixelFormat.format := DXGI_FORMAT_B8G8R8A8_UNORM;
-//    if (GPBitmap.PixelFormat <> pf32bit) or (GPBitmap.AlphaFormat = afIgnored) then
-//        BitmapProperties.pixelFormat.alphaMode := D2D1_ALPHA_MODE_IGNORE
-//    else
-        BitmapProperties.pixelFormat.alphaMode := D2D1_ALPHA_MODE_PREMULTIPLIED;
-
-    RenderTarget.CreateBitmap(D2D1SizeU(GPBitmap.GetWidth, GPBitmap.GetHeight),
+        // CreateBitmap will fails under VMware Workstation 15.5.6 for images
+        // larger than 8192x4096.
+        HR := RenderTarget.CreateBitmap(
+                              D2D1SizeU(GPBitmap.GetWidth, GPBitmap.GetHeight),
                               BmpData.Scan0,
                               BmpData.Stride,
                               BitmapProperties,
                               Result);
-    GPBitmap.UnlockBits(BmpData);
+        if HR <> S_OK then
+            raise Exception.CreateFmt(
+                      'RenderTarget.CreateBitmap failed with error 0x%X', [HR]);
+    finally
+        GPBitmap.UnlockBits(BmpData);
+    end;
 end;
 
 
